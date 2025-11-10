@@ -50,7 +50,7 @@ function createMitarashiApp() {
     version: "0.1.0",
     type: "module",
     scripts: {
-      build: "mitarashi build",
+      build: "mitarashi",
     },
     dependencies: {
       mitarashi: "^0.1.0",
