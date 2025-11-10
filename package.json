@@ -1,0 +1,25 @@
+{
+  "name": "create-mitarashi-app",
+  "version": "0.1.0",
+  "description": "Create a Mitarashi blog with one command",
+  "type": "module",
+  "bin": {
+    "create-mitarashi-app": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "author": "PocoPota",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

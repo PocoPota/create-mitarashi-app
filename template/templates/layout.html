@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ siteTitle }}</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header h1 a {
+      color: #333;
+      text-decoration: none;
+    }
+    header h1 a:hover {
+      color: #666;
+    }
+    main {
+      min-height: 60vh;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><a href="/">{{ siteTitle }}</a></h1>
+  </header>
+
+  <main>
+    {{ slot }}
+  </main>
+
+  <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ccc; color: #666;">
+    <p>Powered by Mitarashi</p>
+  </footer>
+</body>
+
+</html>
