@@ -1,6 +1,9 @@
 {
   "name": "create-mitarashi-app",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Create a Mitarashi blog with one command",
   "type": "module",
   "bin": {
