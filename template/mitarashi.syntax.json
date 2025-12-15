@@ -1,0 +1,30 @@
+[
+  {
+    "rule_type": "inline",
+    "start": "::",
+    "end": "::",
+    "toNode": {
+      "type": "yellow_marker"
+    },
+    "template": "<span class='yellow_marker'>{{content}}</span>"
+  },
+  {
+    "rule_type": "block",
+    "start": ":::",
+    "end": ":::",
+    "toNode": {
+      "type": "comment_block"
+    },
+    "template": "<div class='comment-block'>{{content}}</div>"
+  },
+  {
+    "rule_type": "block",
+    "start": "!!",
+    "end": "!!",
+    "meta": "info",
+    "toNode": {
+      "type": "info_block"
+    },
+    "template": "<div class='info-block'><strong>{{meta}}</strong><div>{{content}}</div></div>"
+  }
+]

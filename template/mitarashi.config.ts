@@ -11,6 +11,7 @@ export default defineConfig({
     postsDir: "posts",
     outputDir: "dist",
     templateDir: "templates",
+    customSyntaxFile: "mitarashi.syntax.json",
   },
 
   theme: {
