@@ -53,7 +53,7 @@ function createMitarashiApp() {
       build: "mitarashi",
     },
     dependencies: {
-      mitarashi: "^0.3.0",
+      mitarashi: "^0.3.1",
     },
   };
 
