@@ -4,7 +4,6 @@ export default defineConfig({
   site: {
     siteTitle: "My Blog",
     description: "Mitarashiで作られたブログサイト",
-    baseUrl: "/",
   },
 
   paths: {
